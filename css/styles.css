@@ -1,3 +1,5 @@
+/* @import url('stylenull.css'); */
+
 body {
 	font-family: "Montserrat", sans-serif;
 	background-color: #F6F6FA;
@@ -17,11 +19,6 @@ body {
 	padding-bottom: 80px;
 	box-sizing: border-box;
 }
-
-
-
-
-/* @import url('stylenull.css'); */
 
 h1,
 h2,
@@ -56,4 +53,3 @@ p {
 	line-height: 1.7;
 	font-weight: 400;
 }
-
