@@ -6,10 +6,17 @@ body {
 	padding: 40px 40px 40px 40px;
 }
 
+ul, ol {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
 .wrapper {
+	width: 1200px;
 	display: flex;
 	flex-direction: row-reverse;
 	background-color: #ffffff;
+	margin: 0 auto;
 }
 
 /* Main content */
@@ -102,7 +109,7 @@ body {
 /* My info */
 
 .my-profession {
-	color: #000;
+	color: #000000;
 	font-size: 14px;
 	font-weight: 700;
 	line-height: 1.2;
@@ -111,7 +118,7 @@ body {
 }
 
 .my-name {
-	color: #000;
+	color: #000000;
 	font-size: 45px;
 	font-weight: 700;
 	line-height: 1.2;
@@ -137,7 +144,7 @@ body {
 }
 
 .my-project-title {
-	color: #000;
+	color: #000000;
 	font-size: 22px;
 	font-weight: 700;
 	line-height: 1.2;
@@ -150,7 +157,7 @@ body {
 }
 
 .my-project-item {
-	color: #000;
+	color: #000000;
 	font-size: 14px;
 	font-weight: 700;
 	line-height: 1.7;
@@ -169,4 +176,117 @@ body {
 	font-weight: 400;
 	line-height: 1.7;
 }
+
+/* Work Experience */
+
+.work-experience-container {
+	margin-bottom: 40px;
+}
+
+.work-experience-title {
+	color: #000000;
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 1.2;
+	margin-top: 0;
+	margin-bottom: 8px;
+}
+
+.work-experience-box {
+	margin-bottom: 12px;
+}
+
+.work-experience-position {
+	color: #000000;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 1.2;
+	margin-top: 0;
+	margin-bottom: 12px;
+}
+
+.work-experience-company {
+	color: #6d9bf5;
+}
+
+.work-experience-period {
+	color: #a8a8a8;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 1.2;
+	margin-bottom: 8px;
+}
+
+.work-experience-symbol {
+	color: #000000;
+}
+
+.work-experience-list {
+	padding-left: 21px;
+}
+
+.work-experience-item {
+	color: #595959;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.7;
+}
+
+/* Education */
+
+.education-title {
+	color: #000000;
+	font-size: 22px;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 8px;
+}
+
+.education-university {
+	color: #6d9bf5;
+	font-size: 16px;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 8px;
+}
+
+.education-faculty {
+	color: #000000;
+	font-size: 14px;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 8px;
+}
+
+.education-period {
+	color: #a8a8a8;
+	font-size: 12px;
+	font-weight: 400;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.education-symbol {
+	color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
