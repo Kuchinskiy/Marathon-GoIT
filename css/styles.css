@@ -1,14 +1,10 @@
-/* @import url('stylenull.css'); */
+@import url('stylenull.css');
 
-body {
-	font-family: "Montserrat", sans-serif;
-	background-color: #F6F6FA;
-	padding: 40px 40px 40px 40px;
-}
-
-ul, ol {
-	margin-top: 0;
-	margin-bottom: 0;
+:root {
+	--sidebar-color-title: #161d2a;
+	--main-content-title: #000000;
+	--main-content-description: #595959;
+	--main-content-axxent: #6d9bf5;
 }
 
 .wrapper {
@@ -27,7 +23,6 @@ ul, ol {
 	padding-top: 80px;
 	padding-right: 40px;
 	padding-bottom: 80px;
-	box-sizing: border-box;
 }
 
 /* Sidebar */
@@ -36,7 +31,6 @@ ul, ol {
 	width: 370px;
 	padding-top: 40px;
 	padding-bottom: 40px;
-	box-sizing: border-box;
 	background-color: #e0ebfe;
 }
 
@@ -44,11 +38,10 @@ ul, ol {
 	padding-left: 40px;
 	padding-top: 40px;
 	padding-right: 40px;
-	box-sizing: border-box;
 }
 
 .contacts-title {
-	color: #161d2a;
+	color: var(--sidebar-color-title);
 	font-size: 22px;
 	font-weight: 700;
 	line-height: normal;
@@ -57,7 +50,7 @@ ul, ol {
 }
 
 .contacts-type {
-	color: #161d2a;
+	color: var(--sidebar-color-title);
 	font-size: 14px;
 	font-weight: 700;
 	line-height: 1.7;
@@ -66,8 +59,6 @@ ul, ol {
 
 .contacts-link {
 	color: #2979ff;
-	font-style: 14px;
-	font-weight: 400;
 	line-height: 1.7;
 }
 
@@ -87,7 +78,7 @@ ul, ol {
 }
 
 .skills-title {
-	color: #161d2a;
+	color: var(--sidebar-color-title);
 	font-size: 22px;
 	font-weight: 700;
 	line-height: normal;
@@ -100,7 +91,7 @@ ul, ol {
 }
 
 .skills-list-item {
-	color: #161d2a;
+	color: var(--sidebar-color-title);
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 1.7;
@@ -109,8 +100,7 @@ ul, ol {
 /* My info */
 
 .my-profession {
-	color: #000000;
-	font-size: 14px;
+	color: var(--main-content-title);
 	font-weight: 700;
 	line-height: 1.2;
 	margin-top: 0;
@@ -118,7 +108,7 @@ ul, ol {
 }
 
 .my-name {
-	color: #000000;
+	color: var(--main-content-title);
 	font-size: 45px;
 	font-weight: 700;
 	line-height: 1.2;
@@ -127,7 +117,7 @@ ul, ol {
 }
 
 .my-descr {
-	color:#595959;;
+	color:var(--main-content-description);
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 1.7;
@@ -144,7 +134,7 @@ ul, ol {
 }
 
 .my-project-title {
-	color: #000000;
+	color: var(--main-content-title);
 	font-size: 22px;
 	font-weight: 700;
 	line-height: 1.2;
@@ -184,7 +174,7 @@ ul, ol {
 }
 
 .work-experience-title {
-	color: #000000;
+	color: var(--main-content-title);
 	font-size: 22px;
 	font-weight: 700;
 	line-height: 1.2;
@@ -197,7 +187,7 @@ ul, ol {
 }
 
 .work-experience-position {
-	color: #000000;
+	color: var(--main-content-title);
 	font-size: 16px;
 	font-weight: 700;
 	line-height: 1.2;
@@ -206,7 +196,7 @@ ul, ol {
 }
 
 .work-experience-company {
-	color: #6d9bf5;
+	color: var(--main-content-axxent);
 }
 
 .work-experience-period {
@@ -226,7 +216,7 @@ ul, ol {
 }
 
 .work-experience-item {
-	color: #595959;
+	color: var(--main-content-description);
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 1.7;
@@ -234,8 +224,12 @@ ul, ol {
 
 /* Education */
 
+.education-container {
+	margin-bottom: 12px;
+}
+
 .education-title {
-	color: #000000;
+	color: var(--main-content-title);
 	font-size: 22px;
 	font-weight: 700;
 	margin-top: 0;
@@ -243,7 +237,7 @@ ul, ol {
 }
 
 .education-university {
-	color: #6d9bf5;
+	color: var(--main-content-axxent);
 	font-size: 16px;
 	font-weight: 700;
 	margin-top: 0;
@@ -270,23 +264,28 @@ ul, ol {
 	color: #000000;
 }
 
+/* Courses */
 
+.courses-title {
+	color: var(--main-content-title);
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 1.2;
+	margin-top: 0;
+	margin-bottom: 12px;
+}
 
+.courses-title-area {
+	color: var(--main-content-axxent);
+}
 
+.courses-list {
+	padding-left: 16px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.courses-item-desk {
+	color: var(--main-content-axxent);
+}
 
 
 
