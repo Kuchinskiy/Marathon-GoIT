@@ -436,7 +436,6 @@ body {
     .about-me-container {
         padding: 30px;
     }
-
 }
 
 @media screen and (max-width: 600px) {
@@ -494,6 +493,4 @@ body {
     .profession-duties {
         margin-top: 0;
     }
-    
-
 }

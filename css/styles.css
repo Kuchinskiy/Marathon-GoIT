@@ -8,8 +8,8 @@
 }
 
 .wrapper {
-	width: 1200px;
 	display: flex;
+	max-width: 1200px;
 	flex-direction: row-reverse;
 	background-color: #ffffff;
 	margin: 0 auto;
@@ -35,9 +35,9 @@
 }
 
 .sidebar-content {
-	padding-left: 40px;
+	padding-left: 38px;
 	padding-top: 40px;
-	padding-right: 40px;
+	padding-right: 38px;
 }
 
 .contacts-title {
@@ -51,7 +51,6 @@
 
 .contacts-type {
 	color: var(--sidebar-color-title);
-	font-size: 14px;
 	font-weight: 700;
 	line-height: 1.7;
 	margin-right: 8px;
@@ -92,7 +91,6 @@
 
 .skills-list-item {
 	color: var(--sidebar-color-title);
-	font-size: 14px;
 	font-weight: 400;
 	line-height: 1.7;
 }
@@ -118,7 +116,6 @@
 
 .my-descr {
 	color:var(--main-content-description);
-	font-size: 14px;
 	font-weight: 400;
 	line-height: 1.7;
 }
@@ -288,4 +285,62 @@
 }
 
 
+/* Adaptive tablet */
 
+@media screen and (max-width: 900px) {
+
+	.wrapper {
+		flex-direction: column;
+	}
+
+	.sidebar {
+		width: 100%;
+		display: flex;
+	}
+
+	.sidebar-content {
+		padding-top: 0;
+	}
+
+	.my-photo {
+		width: 50%;
+		height: 100%;
+	}
+
+	.my-name {
+		font-size: 35px;
+	}
+}
+
+/* Adaptive mobile */
+
+@media screen and (max-width: 600px) {
+
+	html {
+		padding: 20px;
+	}
+
+	body {
+		padding: 0;
+	}
+
+	.sidebar {
+		flex-direction: column;
+	}
+
+	.my-photo {
+		width: 100%;
+	}
+
+	.contacts-container {
+		margin-top: 25px;
+	}
+
+	.main-content {
+		padding: 20px;
+	}
+
+	.my-name {
+		font-size: 28px;
+	}
+}
