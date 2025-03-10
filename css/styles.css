@@ -40,6 +40,10 @@
 	padding-right: 38px;
 }
 
+.contacts {
+	font-style: normal;
+}
+
 .contacts-title {
 	color: var(--sidebar-color-title);
 	font-size: 22px;
