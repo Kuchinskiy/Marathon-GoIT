@@ -95,7 +95,6 @@
 
 .skills-list-item {
 	color: var(--sidebar-color-title);
-	font-weight: 400;
 	line-height: 1.7;
 }
 
@@ -120,7 +119,6 @@
 
 .my-descr {
 	color:var(--main-content-description);
-	font-weight: 400;
 	line-height: 1.7;
 }
 
@@ -149,21 +147,18 @@
 
 .my-project-item {
 	color: #000000;
-	font-size: 14px;
 	font-weight: 700;
 	line-height: 1.7;
 }
 
 .my-project-link {
 	color: #005fff;
-	font-size: 14px;
 	font-weight: 400;
 	line-height: 1.7;
 }
 
 .my-project-tech {
 	color: #595959;
-	font-size: 14px;
 	font-weight: 400;
 	line-height: 1.7;
 }
@@ -218,8 +213,6 @@
 
 .work-experience-item {
 	color: var(--main-content-description);
-	font-size: 14px;
-	font-weight: 400;
 	line-height: 1.7;
 }
 
